@@ -91,7 +91,7 @@ function customerRequest() {
 			type:'rawlist',
 			name: 'choice',
 			message: 'What would you like to do?',
-			choices:['View Products for Sale','View Low Inventory','Add new product', 'Add quantity to existing item', 'Exit Program']
+			choices:['View Products for Sale','View Low Inventory','Add New Product', 'Add Quantity to Existing Item', 'Exit Program']
 		}
 	])
 	.then(function(answer) {
@@ -102,10 +102,10 @@ function customerRequest() {
 			case 'View Low Inventory' :
 				displayLowTable();
 				break;
-			case 'Add new product' : 
+			case 'Add New Product' : 
 				addNewProduct()
 				break; 
-			case 'Add quantity to existing item' :
+			case 'Add Quantity to Existing Item' :
 				updateItem();
 				break;
 			case 'Exit Program' :
@@ -148,7 +148,7 @@ function updateItem() {
 						{
 							type: 'input',
 							name: 'quantity',
-							message: 'How many would you like to add ?'		
+							message: 'How many would you like to add?'		
 						}
 
 					]).then(function(answer) {
@@ -178,7 +178,7 @@ function updateItem() {
 								}
 							],function(err,res,fields) {
 								if(err) throw err;
-								console.log("Quantity added!!!");
+								console.log("Quantity added!");
 								displayTable();
 							});
 						}); 
@@ -198,22 +198,22 @@ function addNewProduct() {
 		{
 			type:'input',
 			name:'product',
-			message:'What is the product name'
+			message:'What is the product name?'
 		},
 		{
 			type:'input',
 			name:'department',
-			message:'What is the department name'
+			message:'What is the department name?'
 		},
 		{
 			type:'input',
 			name:'price',
-			message:'How much does it cost'
+			message:'How much does it cost?'
 		},
 		{
 			type:'input',
 			name:'stockQty',
-			message:'How many do you want to add'
+			message:'How many do you want to add?'
 		}
 	]).then(function(answer){
 		var product = answer.product;
