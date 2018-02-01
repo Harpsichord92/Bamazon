@@ -8,7 +8,6 @@ bamazonCustomer will give the user an inventory of items to purchase from. The i
 ### Bamazon Manager
 bamazonManager will bring up the table of inventory items mentioned in bamazonCustomer and give the user a list of actions they may take. 
 
-- - -
 1.) View Products for Sale will display the table.
 
 2.) View Low Inventory will display a table with any products with stock_quantity lower than 5. 
@@ -18,7 +17,7 @@ bamazonManager will bring up the table of inventory items mentioned in bamazonCu
 4.) Add Quantity to Existing Item will take user input for the item they want to restock and how much they are re-stocking by and push the change to the database.
 
 5.) Exit Program will exit the manager application.
-- - -
+
 ## Packages
 * [cli-table](https://www.npmjs.com/package/cli-table)
 * [mysql](https://www.npmjs.com/package/mysql)
