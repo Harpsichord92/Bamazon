@@ -20,9 +20,9 @@ bamazonManager will bring up the table of inventory items mentioned in bamazonCu
 5.) Exit Program will exit the manager application.
 - - -
 ## Packages
-[cli-table](https://www.npmjs.com/package/cli-table)
-[mysql](https://www.npmjs.com/package/mysql)
-[inquirer](https://www.npmjs.com/package/inquirer)
+* [cli-table](https://www.npmjs.com/package/cli-table)
+* [mysql](https://www.npmjs.com/package/mysql)
+* [inquirer](https://www.npmjs.com/package/inquirer)
 
 ## Customer Application Image Rundown
 
