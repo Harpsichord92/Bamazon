@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/Harpsichord92/Bamazon#readme",
   "dependencies": {
+    "cli-table": "^0.3.1",
     "inquirer": "^5.0.1",
     "mysql": "^2.15.0"
   }
