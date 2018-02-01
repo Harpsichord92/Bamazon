@@ -26,3 +26,12 @@ bamazonManager will bring up the table of inventory items mentioned in bamazonCu
 ## Customer Application Images 
 ![Customer Application](https://raw.githubusercontent.com/Harpsichord92/Bamazon/master/assets/Customer%20Application%20Runthrough.png)
 ## Manager Application Images
+![View Products For Sale](https://github.com/Harpsichord92/Bamazon/blob/master/assets/Manager%20Inventory%20Check.png)
+
+![View Low Inventory](https://github.com/Harpsichord92/Bamazon/blob/master/assets/Manager%20View%20Low%20Inventory.png)
+
+![Add New Product](https://raw.githubusercontent.com/Harpsichord92/Bamazon/master/assets/Customer%20Application%20Runthrough.png)
+
+![Add Quantity to Existing Item](https://raw.githubusercontent.com/Harpsichord92/Bamazon/master/assets/Customer%20Application%20Runthrough.png)
+
+![Exit Program](https://raw.githubusercontent.com/Harpsichord92/Bamazon/master/assets/Customer%20Application%20Runthrough.png)
