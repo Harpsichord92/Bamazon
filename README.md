@@ -24,5 +24,5 @@ bamazonManager will bring up the table of inventory items mentioned in bamazonCu
 * [inquirer](https://www.npmjs.com/package/inquirer)
 
 ## Customer Application Images 
-![Customer Application](assets.Customer Application Runthrough.png?raw=true)
+![Customer Application](assets/Customer Application Runthrough.png?raw=true)
 ## Manager Application Images
