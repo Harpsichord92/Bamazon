@@ -3,7 +3,7 @@
 ## Application
 
 ### Bamazon Customer
-bamazonCustomer will give the user an inventory of items to purchase from. The inventory of items will be displayed through a table with properties of item_id, product_name, department_name, price, and stock_quantity. The application will prompt the user to select a product_id, then asks how much of that product the user would like to purchase. It will then return the total cost to the user.
+bamazonCustomer will give the user an inventory of items to purchase from. The inventory of items will be displayed through a table with properties of item_id, product_name, department_name, price, and stock_quantity. The application will prompt the user to select a product_id, then asks how much of that product the user would like to purchase. It will then return the total cost to the user. If the user tries to buy more than the stock_quantity, the application will log an error and close.
 
 ### Bamazon Manager
 bamazonManager will bring up the table of inventory items mentioned in bamazonCustomer and give the user a list of actions they may take. 
